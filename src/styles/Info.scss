@@ -1,0 +1,35 @@
+.info {
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	&-content {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		flex-direction: column;
+		height: 100vh;
+
+		&--title {
+			margin: 0;
+			color: $pink;
+			text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+			font-size: 3em;
+			font-weight: 700;
+		}
+
+		&--desc {
+			color: $blue;
+			text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.7);
+			font-size: 1.5em;
+		}
+
+		&--divider {
+			width: 350px;
+			border-top: 1px solid $grey;
+			border-bottom: 1px solid $green;
+		}
+	}
+}

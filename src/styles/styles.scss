@@ -1,2 +1,8 @@
-@import 'App';
-@import 'index';
+@charset "utf-8";
+
+@import 'colors';
+
+@import 'info';
+@import 'about';
+@import 'forWhom';
+@import '~bulma/bulma';
