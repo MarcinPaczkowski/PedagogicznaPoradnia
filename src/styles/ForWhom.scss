@@ -1,13 +1,36 @@
 .forWhom {
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	height: 500px;
+	position: relative;
+	height: 600px;
 
-	&:after {
-		content: '';
-		width: 100%;
+	@media only screen and (max-width: 768px) {
+		height: 1200px;
+	}
+
+	&-background {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
 		height: 100%;
-		background-color: rgba(0, 0, 0, 0.3);
+		width: 100%;
+		position: absolute;
+	}
+
+	&-content {
+		height: 100%;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		padding-top: 40px;
+
+		&--title {
+			text-align: center;
+			color: $blue;
+			font-size: 2em;
+			font-weight: 700;
+			text-shadow: 2px 2px 3px rgba(0, 0, 0, 1.6);
+		}
+
+		&--circles {
+		}
 	}
 }
