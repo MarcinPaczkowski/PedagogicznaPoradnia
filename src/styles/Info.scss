@@ -3,6 +3,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-color: $grey;
 
 	&-content {
 		display: flex;
@@ -30,7 +31,7 @@
 		&--divider {
 			width: 350px;
 			border-top: 1px solid $grey;
-			border-bottom: 1px solid $green;
+			border-bottom: 1px solid $green-blue;
 		}
 	}
 }

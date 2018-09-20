@@ -1,12 +1,12 @@
 .activity {
-	background-color: red;
 	height: 150px;
-	width: 250px;
+	width: 245px;
 	border-radius: 75px;
 	margin: auto;
 	margin-bottom: 20px;
 	color: $white;
 	padding: 20px 10px;
+	background-color: $pink;
 
 	&-title {
 		font-weight: 600;
