@@ -1,6 +1,6 @@
 .aboutMe {
 	position: relative;
-	height: 700px;
+	height: 100vh;
 
 	&-background {
 		background-size: cover;
@@ -18,9 +18,13 @@
 		position: absolute;
 		padding-top: 40px;
 
+		&--wrapper {
+			padding: 12px;
+		}
+
 		&--title {
 			text-align: center;
-			color: $yellow;
+			color: $dark-orange;
 			font-size: 2.5em;
 			font-weight: 700;
 			text-shadow: 2px 2px 3px rgba(0, 0, 0, 1.6);
@@ -28,7 +32,7 @@
 		}
 
 		&--photo {
-			background-color: white;
+			background-color: $white;
 			border-radius: 50%;
 			width: 150px;
 			height: 150px;
@@ -52,8 +56,8 @@
 				text-align: center;
 				font-size: 1.5em;
 				margin-bottom: 10px;
-				font-style: italic;
-				color: $green-yellow;
+				font-weight: 600;
+				color: $dark-orange;
 			}
 		}
 	}

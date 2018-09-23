@@ -10,15 +10,14 @@
 		background-color: #fff;
 		margin-top: 60px;
 		margin-bottom: 100px;
+		padding: 12px;
 
 		&--image {
 			display: flex;
 			justify-content: center;
+			align-content: center;
 			align-items: center;
-
-			img {
-				width: 70%;
-			}
+			flex-direction: column;
 		}
 
 		&--item {

@@ -14,21 +14,27 @@ const forWhom = () => {
 			<div className="forWhom-background" style={styles} />
 			<div className="forWhom-content">
 				<div className="container">
-					<div className="columns">
-						<div className="column">
-							<div className="forWhom-content--title">Dla kogo?</div>
-						</div>
-					</div>
-					<div className="forWhom-content--circles">
+					<div className="forWhom-wrapper">
 						<div className="columns">
 							<div className="column">
-								<ForWhomDetails title="Dzieci od 3 roku życia" desc="Testowy opis 1" imgUrl={childImamge} />
+								<div className="forWhom-content--title">Dla kogo?</div>
 							</div>
-							<div className="column">
-								<ForWhomDetails title="Dzieci i młodzież w wieku szkolnym" desc="Testowy opis 1" imgUrl={youthImage} />
-							</div>
-							<div className="column">
-								<ForWhomDetails title="Rodzice" desc="Testowy opis 1" imgUrl={parentImage} />
+						</div>
+						<div className="forWhom-content--circles">
+							<div className="columns">
+								<div className="column">
+									<ForWhomDetails title="Dzieci od 3 roku życia" desc="Testowy opis 1" imgUrl={childImamge} />
+								</div>
+								<div className="column">
+									<ForWhomDetails
+										title="Dzieci i młodzież w wieku szkolnym"
+										desc="Testowy opis 1"
+										imgUrl={youthImage}
+									/>
+								</div>
+								<div className="column">
+									<ForWhomDetails title="Rodzice" desc="Testowy opis 1" imgUrl={parentImage} />
+								</div>
 							</div>
 						</div>
 					</div>

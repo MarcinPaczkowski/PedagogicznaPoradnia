@@ -2,12 +2,10 @@
 	background-color: $gray;
 	width: 100%;
 	text-align: center;
-	margin-bottom: 20px;
+	padding: 40px 0;
 
-	&-waves {
-		background-size: cover;
-		background-repeat: repeat-x;
-		position: relative;
+	&-wrapper {
+		padding: 12px;
 	}
 
 	&-title {
