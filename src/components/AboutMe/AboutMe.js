@@ -16,17 +16,19 @@ const aboutMe = () => {
 			<div className="aboutMe-background" style={booksStyles} />
 			<div className="aboutMe-content">
 				<div className="container">
-					<div className="columns">
-						<div className="column">
-							<h2 className="aboutMe-content--title">O mnie</h2>
-							<div className="aboutMe-content--photo" style={profilPhotoStyles} />
-							<div className="aboutMe-content--desc">
-								<h3 className="aboutMe-content--desc-name">Małgorzata Bartczak</h3>
-								<p className="aboutMe-content--desc-desc">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempore nemo incidunt, ad aliquam quidem
-									quam consequatur iusto rem mollitia ratione? Accusamus, delectus? Ullam consequuntur optio labore
-									itaque obcaecati ab!
-								</p>
+					<div className="aboutMe-content--wrapper">
+						<div className="columns">
+							<div className="column">
+								<h2 className="aboutMe-content--title">O mnie</h2>
+								<div className="aboutMe-content--photo" style={profilPhotoStyles} />
+								<div className="aboutMe-content--desc">
+									<h3 className="aboutMe-content--desc-name">Małgorzata Bartczak</h3>
+									<p className="aboutMe-content--desc-desc">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempore nemo incidunt, ad aliquam
+										quidem quam consequatur iusto rem mollitia ratione? Accusamus, delectus? Ullam consequuntur optio
+										labore itaque obcaecati ab!
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>

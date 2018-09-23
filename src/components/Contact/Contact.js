@@ -4,25 +4,27 @@ const contact = () => {
 	return (
 		<div className="contact">
 			<div className="container">
-				<div className="columns">
-					<div className="column">
-						<h2 className="contact-title">Kontakt</h2>
-						<div className="contact-content">
-							<p className="contact-content--name">
-								Imię i nazwisko: <span>Małgorzata Bartczak</span>
-							</p>
-							<p className="contact-content--mail">
-								E-mail: <span>biuro@pedagogicznaporadnia.pl</span>
-							</p>
-							<p className="contact-content--phone">
-								Telefon: <span>+48 515-286-790</span>
-							</p>
-							<p className="contact-content--facebook">
-								Facebook: <a href="https://www.facebook.com/pedagogicznaporadnia/">Odwiedź stronę</a>
-							</p>
-						</div>
-						<div className="contact-madeBy">
-							<p className="contact-madeBy--desc">Stronę wykonała firma True Solution Marcin Paczkowski</p>
+				<div className="contact-wrapper">
+					<div className="columns">
+						<div className="column">
+							<h2 className="contact-title">Kontakt</h2>
+							<div className="contact-content">
+								<p className="contact-content--name">
+									Imię i nazwisko: <span>Małgorzata Bartczak</span>
+								</p>
+								<p className="contact-content--mail">
+									E-mail: <span>biuro@pedagogicznaporadnia.pl</span>
+								</p>
+								<p className="contact-content--phone">
+									Telefon: <span>+48 515-286-790</span>
+								</p>
+								<p className="contact-content--facebook">
+									Facebook: <a href="https://www.facebook.com/pedagogicznaporadnia/">Odwiedź stronę</a>
+								</p>
+							</div>
+							<div className="contact-madeBy">
+								<p className="contact-madeBy--desc">Stronę wykonała firma True Solution Marcin Paczkowski</p>
+							</div>
 						</div>
 					</div>
 				</div>
