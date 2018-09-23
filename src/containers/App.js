@@ -3,6 +3,8 @@ import Info from '../components/Info/Info';
 import About from '../components/About/About';
 import ForWhom from '../components/ForWhom/ForWhom';
 import Activities from '../components/Activities/Activities';
+import AboutMe from '../components/AboutMe/AboutMe';
+import Contact from '../components/Contact/Contact';
 
 class App extends Component {
 	render() {
@@ -12,6 +14,8 @@ class App extends Component {
 				<About />
 				<ForWhom />
 				<Activities />
+				<AboutMe />
+				<Contact />
 			</div>
 		);
 	}
