@@ -58,7 +58,19 @@
 				margin-bottom: 10px;
 				font-weight: 600;
 				color: $dark-orange;
+			}			
+
+			@media only screen and (max-width: 380px) {
+				&-desc {
+					font-size: 0.8em;
+				}
 			}
 		}
+	}
+}
+
+@media only screen and (max-height: 800px) and (max-width: 500px) {
+	.aboutMe {
+		height: 140vh;
 	}
 }
