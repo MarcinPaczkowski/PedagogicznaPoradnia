@@ -38,6 +38,21 @@
 			font-size: 1.5em;
 		}
 
+		&--icon {
+			width: 25px;
+			height: 25px;
+			border-radius: 50%;
+			background-color: $facebook;
+			text-align: center;
+			color: $white;
+			opacity: 0.5;
+		}
+
+		&--icon:hover {
+			color: $white;
+			opacity: 1;
+		}
+
 		&--divider {
 			width: 350px;
 			border-top: 1px solid $gray;

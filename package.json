@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "@fortawesome/free-brands-svg-icons": "^5.3.1",
+    "@fortawesome/free-solid-svg-icons": "^5.3.1",
+    "@fortawesome/react-fontawesome": "^0.1.3",
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
@@ -93,6 +97,7 @@
     "extends": "react-app"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.3.1",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0"
   }

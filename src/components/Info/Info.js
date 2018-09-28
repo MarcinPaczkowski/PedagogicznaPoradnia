@@ -1,6 +1,7 @@
 import React from 'react';
 import backgroundImage from '../../assets/art-art-materials-artistic-286559.jpg';
-import umbrellaImgae from '../../assets/drink-umbrella-png-8.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import umbrellaImgae from '../../assets/drink-umbrella-png-8.png';
 
 const info = () => {
 	const styles = {
@@ -17,6 +18,9 @@ const info = () => {
 								{/* <img src={umbrellaImgae} alt="Parasolka" /> */}
 								<h2 className="info-content--title">Pedagogiczna Pora Dnia</h2>
 								<h3 className="info-content--desc">Września</h3>
+								<a className="info-content--icon" href="https://www.facebook.com/pedagogicznaporadnia/">
+									<FontAwesomeIcon icon={['fab', 'facebook-f']} />
+								</a>
 								<hr className="info-content--divider" />
 							</div>
 						</div>

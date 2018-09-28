@@ -2,6 +2,10 @@
 	position: relative;
 	height: 100vh;
 
+	@media screen and (max-width: 768px) {
+		height: 180vh;
+	}
+
 	&-background {
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -52,12 +56,21 @@
 			text-align: justify;
 			color: $gray;
 
+			@media screen and (max-width: 768px) {
+				width: 95%;
+				font-size: 0.7em;
+			}
+
 			&-name {
 				text-align: center;
 				font-size: 1.5em;
 				margin-bottom: 10px;
 				font-weight: 600;
 				color: $dark-orange;
+			}
+
+			&-desc {
+				margin-bottom: 15px;
 			}
 		}
 	}
