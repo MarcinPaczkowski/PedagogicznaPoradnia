@@ -23,7 +23,11 @@ const forWhom = () => {
 						<div className="forWhom-content--circles">
 							<div className="columns">
 								<div className="column">
-									<ForWhomDetails title="Dzieci od 3 roku życia" desc="Testowy opis 1" imgUrl={childImamge} />
+									<ForWhomDetails
+										title="Dzieci od 3 roku życia"
+										desc="już od 3 roku życia dzieci mogą rozpocząć swoją naukę pisania czy czytania, ale także poprzez zabawę nabywać innych umiejętności niezbędnych w dorosłym życiu"
+										imgUrl={childImamge}
+									/>
 								</div>
 								<div className="column">
 									<ForWhomDetails

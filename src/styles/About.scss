@@ -1,16 +1,14 @@
 .about {
 	&-cloud {
-		margin-top: -150px;
-		height: 230px;
+		margin-top: -200px;
+		height: 305px;
 		background-size: cover;
 		background-repeat: repeat-x;
 	}
 
 	&-content {
-		background-color: #fff;
-		margin-top: 60px;
-		margin-bottom: 100px;
-		padding: 12px;
+		background-color: $white;
+		padding: 30px 12px;
 
 		&--image {
 			display: flex;
@@ -39,6 +37,12 @@
 				margin-bottom: 15px;
 				text-align: justify;
 			}
+		}
+	}
+
+	@media only screen and (max-width: 768px) {
+		&-content {
+			padding-top: 0;
 		}
 	}
 }

@@ -13,7 +13,8 @@ const contact = () => {
 									Imię i nazwisko: <span>Małgorzata Bartczak</span>
 								</p>
 								<p className="contact-content--mail">
-									E-mail: <span>biuro@pedagogicznaporadnia.pl</span>
+									E-mail:
+									<a href="mailto:biuro@pedagogicznaporadnia.pl">biuro@pedagogicznaporadnia.pl</a>
 								</p>
 								<p className="contact-content--phone">
 									Telefon: <span>+48 515-286-790</span>

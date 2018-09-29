@@ -24,12 +24,11 @@
 			font-weight: 600;
 		}
 
-		&--facebook {
-			a {
-				color: $blue;
-				&:hover {
-					color: $green-blue;
-				}
+		a {
+			font-weight: 600;
+			color: $blue;
+			&:hover {
+				color: $facebook;
 			}
 		}
 	}

@@ -24,9 +24,23 @@ const aboutMe = () => {
 								<div className="aboutMe-content--desc">
 									<h3 className="aboutMe-content--desc-name">Małgorzata Bartczak</h3>
 									<p className="aboutMe-content--desc-desc">
-										Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempore nemo incidunt, ad aliquam
-										quidem quam consequatur iusto rem mollitia ratione? Accusamus, delectus? Ullam consequuntur optio
-										labore itaque obcaecati ab!
+										Ukończyłam studia magisterskie na Uniwersytecie im. Adama Mickiewicza. W trakcie swojej edukacji
+										zdobywałam wiedzę w ramach trzech specjalności: komunikacji społecznej, poradnictwa i pomocy
+										psychopedagogicznej oraz profilaktyki i interwencji kryzysowej.
+									</p>
+									<p className="aboutMe-content--desc-desc">
+										Posiadam kompetencje niezbędne do przeprowadzania treningu psychologiczno-pedagogicznego dla osób w
+										sytuacji bezradności, ale także dla osób, które chcą rozpoznać i wykorzystać swój potencjał
+										rozwojowy. Potrafię przeciwdziałać i zapobiegać problemom jednostek, a także ich negatywnym
+										konsekwencjom, które prowadzą do kryzysów, patologii, marginalizacji czy wykluczenia społecznego.
+										Posiadam umiejętności potrzebne do diagnozowania potrzeb oraz świadczenia pomocy i formalnego
+										wsparcia dla dzieci, młodzieży oraz osób dorosłych w funkcjonowaniu w zróżnicowanych rolach
+										społeczno-rodzinnych i pedagogicznych. Potrafię projektować wieloaspektowe plany działania
+										wspierające jednostkę.
+									</p>
+									<p className="aboutMe-content--desc-desc">
+										Szczególnie interesuje się zagadnieniami związanymi z komunikacją w rodzinie oraz coachingiem
+										rozwoju osobistego.
 									</p>
 								</div>
 							</div>
