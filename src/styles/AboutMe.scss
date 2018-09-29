@@ -2,8 +2,24 @@
 	position: relative;
 	height: 100vh;
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1090px) {
 		height: 180vh;
+	}
+
+	@media only screen and (max-height: 360px) and (max-width: 480px) {
+		height: 190vh;
+	}
+
+	@media only screen and (max-height: 800px) and (max-width: 500px) {
+		height: 140vh;
+	}
+
+	@media only screen and (max-height: 480px) and (max-width: 320px) {
+		height: 155vh;
+	}
+
+	@media only screen and (max-height: 360px) and (max-width: 480px) {
+		height: 190vh;
 	}
 
 	&-background {
@@ -67,7 +83,7 @@
 				margin-bottom: 10px;
 				font-weight: 600;
 				color: $dark-orange;
-			}			
+			}
 
 			@media only screen and (max-width: 380px) {
 				&-desc {
@@ -79,11 +95,5 @@
 				margin-bottom: 15px;
 			}
 		}
-	}
-}
-
-@media only screen and (max-height: 800px) and (max-width: 500px) {
-	.aboutMe {
-		height: 140vh;
 	}
 }
