@@ -24,7 +24,6 @@
 			font-size: 3em;
 			font-weight: 700;
 			text-align: center;
-			position: relative;
 		}
 
 		@media only screen and (max-width: 360px) {
@@ -33,31 +32,11 @@
 			}
 		}
 
-		&--umbrella {
-			position: absolute;
-			width: 144px;
-			right: 32px;
-			top: -46px;
-		}
-
-		@media only screen and (max-width: 1247px) {
-			&--umbrella {
-				right: unset;
-				left: 58%;
-			}
-		}
-
-		@media only screen and (max-width: 898px) {
-			&--umbrella {
-				left: 81%;
-				top: 51px;
-			}
-		}
-
 		&--desc {
 			color: $blue;
 			text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.7);
 			font-size: 1.5em;
+			margin-bottom: 10px;
 		}
 
 		&--icon {

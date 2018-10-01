@@ -11,13 +11,13 @@ const activities = () => {
 						<div className="column">
 							<Activity
 								title="zajęcia wspomagające naukę szkolną"
-								desc="zajęcia przeznaczone dla dzieci, które mają trudności w szkole, pomagają wyrównać braki edukacyjne "
+								desc="zajęcia przeznaczone dla dzieci, które mają trudności w szkole, pomagają wyrównać braki edukacyjne, ale także zapobiegać narastających problemom i eliminować już powstałe"
 							/>
 						</div>
 						<div className="column">
 							<Activity
 								title="edukacja uczniów zdolnych"
-								desc="zajęcia przeznaczone dla dzieci szczególnie uzdolnionych, pomagają rozwinąć potencjał i pogłębiać zainteresowania"
+								desc="zajęcia przeznaczone dla dzieci szczególnie uzdolnionych, pomagają rozwinąć potencjał i pogłębiać zainteresowania, wspomagają rozwój psychofizyczny"
 								color="#86abff"
 							/>
 						</div>
@@ -60,14 +60,14 @@ const activities = () => {
 						<div className="column">
 							<Activity
 								title="trening psychopedagogiczny"
-								desc="zajęcia przeznaczone dla dzieci szczególnie uzdolnionych, pomagają rozwinąć potencjał i pogłębiać zainteresowania"
+								desc="jest połączeniem poradnictwa, pomocy psychopedagogicznej, psychoedukacji z wykorzystaniem elementów coachingu, adresowany do osób sytuacji bezradności, ale również chcących rozwijać swój życiowy potencjał"
 								color="#86abff"
 							/>
 						</div>
 						<div className="column">
 							<Activity
 								title="interwencja kryzysowa"
-								desc="zajęcia przeznaczone dla dzieci, które chcą zacząć pisać i czytać oraz takich, które chcą doskonalić już posiadane umiejętności"
+								desc="zajęcia nastawione na minimalizowanie negatywnych efektów pojawiających się problemów i zapobieganie ich rozwojowi w sytuacji wystąpienia objawów"
 							/>
 						</div>
 					</div>

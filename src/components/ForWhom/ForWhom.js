@@ -25,19 +25,26 @@ const forWhom = () => {
 								<div className="column">
 									<ForWhomDetails
 										title="Dzieci od 3 roku życia"
-										desc="już od 3 roku życia dzieci mogą rozpocząć swoją naukę pisania czy czytania, ale także poprzez zabawę nabywać innych umiejętności niezbędnych w dorosłym życiu"
+										desc="Już od 3 roku życia dzieci mogą rozpocząć swoją naukę pisania czy czytania, a także poprzez zabawę mogą nabywać innych umiejętności niezbędnych w codziennym życiu."
+										more="Polecane są tutaj zajęcia z nauki czytania oraz pisania. W szczególnych przypadkach dla dzieci od 3 roku życia prowadzę zajęcia ogólnorozwojowe. Zajęcia te nastawione są na rozwijanie umiejętności językowych, muzycznych, koordynacji ruchowej czy zdolności interpersonalnych."
 										imgUrl={childImamge}
 									/>
 								</div>
 								<div className="column">
 									<ForWhomDetails
 										title="Dzieci i młodzież w wieku szkolnym"
-										desc="Testowy opis 1"
+										desc="Dzieci w wieku szkolnym rozwijają swoje umiejętności i dążą do osiągnięcia dojrzałości psychicznej. Szczególnie ważne jest wspieranie ich i towarzyszenie im w rozwoju oraz drodze do dorosłości."
+										more="Polecane są tutaj zajęcia wspomagające naukę szkolną, edukacja uczniów zdolnych, nauka czytania i pisania. Dzieci i młodzież w wieku szkolnym mogą również skorzystać z treningu kompetencji komunikacyjnych, treningu kompetencji miękkich oraz kompleksowego treningu psychopedagogicznego, do czego szczególnie zachęcam."
 										imgUrl={youthImage}
 									/>
 								</div>
 								<div className="column">
-									<ForWhomDetails title="Rodzice" desc="Testowy opis 1" imgUrl={parentImage} />
+									<ForWhomDetails
+										title="Rodzice"
+										desc="To właśnie na barkach rodziców spoczywa odpowiedzialność za prawidłowy rozwój dzieci i szczęście rodzinne. Jednak nie można zapominać, że rodzice to także odrębne jednostki, które poza byciem mamą czy tatą są także po prostu człowiekiem."
+										more="Polecam kontakt w sprawie poradnictwa rodzinnego i wychowawczego, doradztwa w problemach edukacyjnych i wychowawczych, interwencję w sytuacji kryzysu, a także treningi kompetencji komunikacyjnych, kompetencji miękkich czy psychopedagogiczny. Zachęcam także do skorzystania z oferty, która skierowana jest bezpośrednio do Państwa dzieci."
+										imgUrl={parentImage}
+									/>
 								</div>
 							</div>
 						</div>
