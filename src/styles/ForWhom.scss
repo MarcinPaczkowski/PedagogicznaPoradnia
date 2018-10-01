@@ -1,13 +1,13 @@
 .forWhom {
 	position: relative;
-	height: 600px;
+	height: 700px;
 
 	&-wrapper {
 		padding: 12px;
 	}
 
 	@media only screen and (max-width: 768px) {
-		height: 1200px;
+		height: 1500px;
 	}
 
 	&-background {
@@ -33,9 +33,6 @@
 			font-weight: 700;
 			text-shadow: 2px 2px 3px rgba(0, 0, 0, 1.6);
 			margin-bottom: 20px;
-		}
-
-		&--circles {
 		}
 	}
 }

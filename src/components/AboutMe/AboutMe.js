@@ -39,7 +39,7 @@ const aboutMe = () => {
 										wspierające jednostkę.
 									</p>
 									<p className="aboutMe-content--desc-desc">
-										Szczególnie interesuje się zagadnieniami związanymi z komunikacją w rodzinie oraz coachingiem
+										Szczególnie interesuję się zagadnieniami związanymi z komunikacją w rodzinie oraz coachingiem
 										rozwoju osobistego.
 									</p>
 								</div>
