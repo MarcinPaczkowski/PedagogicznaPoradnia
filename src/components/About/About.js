@@ -27,7 +27,7 @@ const about = () => {
 									jednostki. Dzięki trafnej diagnozie współpraca ze mną przynosi wymierne korzyści. Przeprowadzam
 									treningi psychopedagogiczne, w które umiejętnie wplatam metody coachingowe. Interweniuję w przypadku
 									kryzysów czy wycofania społecznego. Prowadzę indywidualne oraz grupowe zajęcia uzależnione od potrzeb
-									jednostki czy grupy.
+									jednostki czy grupy. W razie jakichkolwiek pytań lub sugestii zapraszam do kontaktu.
 								</p>
 							</div>
 						</div>

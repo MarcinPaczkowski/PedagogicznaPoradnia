@@ -11,19 +11,21 @@
 	@media screen and (max-width: 768px) {
 		height: 260px;
 		width: 270px;
-		font-size: 0.8em;
 	}
 
 	@media screen and (max-width: 1090px) {
-		height: 280px;
-		width: 245px;
-		font-size: 0.7em;
+		height: 285px;
+		width: 235px;
 	}
 
 	&-title {
 		font-weight: 600;
 		font-size: 16px;
 		margin-bottom: 10px;
+
+		@media screen and (max-width: 1090px) {
+			font-size: 14px;
+		}
 	}
 
 	&-desc {

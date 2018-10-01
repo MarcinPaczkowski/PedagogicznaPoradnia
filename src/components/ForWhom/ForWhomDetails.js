@@ -37,7 +37,7 @@ class ForWhomDetails extends Component {
 				</a>
 				<Modal
 					title={this.props.title}
-					desc={this.props.desc}
+					desc={this.props.more}
 					show={this.state.isModalActive}
 					close={() => this.close()}
 				/>

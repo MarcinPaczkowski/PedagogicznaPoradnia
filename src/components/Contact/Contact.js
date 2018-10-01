@@ -10,14 +10,14 @@ const contact = () => {
 							<h2 className="contact-title">Kontakt</h2>
 							<div className="contact-content">
 								<p className="contact-content--name">
-									Imię i nazwisko: <span>Małgorzata Bartczak</span>
+									Imię i nazwisko: <a href="javascript:void(0)">Małgorzata Bartczak</a>
 								</p>
 								<p className="contact-content--mail">
 									E-mail:
 									<a href="mailto:biuro@pedagogicznaporadnia.pl">biuro@pedagogicznaporadnia.pl</a>
 								</p>
 								<p className="contact-content--phone">
-									Telefon: <span>+48 515-286-790</span>
+									Telefon: <a href="tel:+48 515-286-790">+48 515-286-790</a>
 								</p>
 								<p className="contact-content--facebook">
 									Facebook: <a href="https://www.facebook.com/pedagogicznaporadnia/">Odwiedź stronę</a>

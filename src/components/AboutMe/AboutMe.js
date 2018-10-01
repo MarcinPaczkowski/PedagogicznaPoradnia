@@ -24,9 +24,9 @@ const aboutMe = () => {
 								<div className="aboutMe-content--desc">
 									<h3 className="aboutMe-content--desc-name">Małgorzata Bartczak</h3>
 									<p className="aboutMe-content--desc-desc">
-										Ukończyłam studia magisterskie na Uniwersytecie im. Adama Mickiewicza. W trakcie swojej edukacji
-										zdobywałam wiedzę w ramach trzech specjalności: komunikacji społecznej, poradnictwa i pomocy
-										psychopedagogicznej oraz profilaktyki i interwencji kryzysowej.
+										Ukończyłam studia magisterskie na Uniwersytecie im. Adama Mickiewicza. Jestem pedagogiem. W trakcie
+										swojej edukacji zdobywałam wiedzę w ramach trzech specjalności: komunikacji społecznej, poradnictwa
+										i pomocy psychopedagogicznej oraz profilaktyki i interwencji kryzysowej.
 									</p>
 									<p className="aboutMe-content--desc-desc">
 										Posiadam kompetencje niezbędne do przeprowadzania treningu psychologiczno-pedagogicznego dla osób w
