@@ -1,25 +1,17 @@
 .aboutMe {
 	position: relative;
-	height: 100vh;
+	height: 800px;
 
-	@media screen and (max-width: 1090px) {
-		height: 180vh;
+	@media screen and (max-width: 950px) {
+		height: 900px;
 	}
 
-	@media only screen and (max-height: 360px) and (max-width: 480px) {
-		height: 190vh;
+	@media screen and (max-width: 550px) {
+		height: 1100px;
 	}
 
-	@media only screen and (max-height: 800px) and (max-width: 500px) {
-		height: 140vh;
-	}
-
-	@media only screen and (max-height: 480px) and (max-width: 320px) {
-		height: 155vh;
-	}
-
-	@media only screen and (max-height: 360px) and (max-width: 480px) {
-		height: 190vh;
+	@media screen and (max-width: 420px) {
+		height: 900px;
 	}
 
 	&-background {
@@ -74,7 +66,10 @@
 
 			@media screen and (max-width: 768px) {
 				width: 95%;
-				font-size: 0.7em;
+			}
+
+			@media screen and (max-width: 420px) {
+				font-size: 0.8em;
 			}
 
 			&-name {
@@ -85,7 +80,7 @@
 				color: $dark-orange;
 			}
 
-			@media only screen and (max-width: 380px) {
+			@media only screen and (max-width: 420px) {
 				&-desc {
 					font-size: 0.8em;
 				}
