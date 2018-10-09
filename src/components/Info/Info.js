@@ -16,12 +16,20 @@ const info = () => {
 						<div className="column is-half">
 							<div className="info-content">
 								<img src={logoImage} alt="Logo pedagogiczna pora dnia" className="info-content--logo" />
-								<h2 className="info-content--title">Pedagogiczna Pora Dnia</h2>
-								<h3 className="info-content--desc">Września</h3>
+								<h1 className="info-content--title">Pedagogiczna Pora Dnia</h1>
+								<h2 className="info-content--desc">miejsce rozwoju nie tylko dla dziecka</h2>
 								<hr className="info-content--divider" />
-								<a className="info-content--icon" href="https://www.facebook.com/pedagogicznaporadnia/">
-									<FontAwesomeIcon icon={['fab', 'facebook-f']} />
-								</a>
+								<div className="info-content--icons">
+									<a className="info-content--icons__item" href="https://www.facebook.com/pedagogicznaporadnia/">
+										<FontAwesomeIcon icon={['fab', 'facebook-f']} />
+									</a>
+									<a className="info-content--icons__item" href="mailto:biuro@pedagogicznaporadnia.pl">
+										<FontAwesomeIcon icon="envelope" />
+									</a>
+									<a className="info-content--icons__item" href="tel:+48 515-286-790">
+										<FontAwesomeIcon icon="phone-volume" />
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>

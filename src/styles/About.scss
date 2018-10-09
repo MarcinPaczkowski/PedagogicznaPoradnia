@@ -36,6 +36,14 @@
 			&-desc {
 				margin-bottom: 15px;
 				text-align: justify;
+
+				a {
+					margin-left: 5px;
+					text-decoration: none;
+					&:hover {
+						color: $facebook;
+					}
+				}
 			}
 		}
 	}

@@ -6,10 +6,10 @@ import Activities from '../components/Activities/Activities';
 import AboutMe from '../components/AboutMe/AboutMe';
 import Contact from '../components/Contact/Contact';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faChevronDown, faPhoneVolume, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 
-
-library.add(fab);
+library.add(fab, faChevronDown, faPhoneVolume, faEnvelope);
 
 class App extends Component {
 	render() {
