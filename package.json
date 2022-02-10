@@ -99,7 +99,7 @@
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.3.1",
-    "node-sass": "^4.9.3",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.1.0"
   }
 }
